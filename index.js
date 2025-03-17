@@ -4,7 +4,6 @@ import mongoose from 'mongoose';
 
 
 //Database Connection
-// VZWsZ0n4GIBVmZr1
 async function connectToDatabase() {
     try {
         await mongoose.connect(process.env.MONGO_URI);
